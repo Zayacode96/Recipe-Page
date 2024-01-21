@@ -1,14 +1,100 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
 
 :root {
-
+    --primary-nutmeg: hsl(14, 45%, 36%);
+    --primary-darkraspberry: hsl(332, 51%, 32%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-rosewhite: hsl(330, 100%, 98%);
+    --neutral-eggshell: hsl(30, 54%, 90%);
+    --neutral-lightgray: hsl(30, 18%, 87%);
+    --neutral-wengebrown: hsl(30, 10%, 34%);
+    --neutral-darkcharcoal: hsl(24, 5%, 18%);
 }
 
 *, 
 *::before,
 *::after {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font: inherit;
+}
+
+body {
+    background-color: var(--neutral-eggshell);
+    padding: 5rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: var(--neutral-white);
+    max-width: 650px;
+    margin: auto;
+    padding: 2.3rem;
+    border-radius: 20px;
+}
+
+header {
+    padding-bottom: 1.5rem;
+}
+
+  h1, h2 {
+    font-family: 'Young Serif', sans-serif;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+ .img-container {
+    padding-bottom: 30px;
+}
+
+.title {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+.intro {
+    font-size: 0.9rem;
+    color: var(--neutral-wengebrown);
+    padding-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: ;
+}
+
+.prep-time {
+    border-radius: 10px;
+    background-color: var(--neutral-rosewhite);
+    padding: 1.1rem 0.5rem;
+}
+
+.prep-heading {
+    font-size: 1.1rem; 
+    font-weight: 600;
+    color: var(--primary-darkraspberry);
+    position: relative;
+    left: 15px;
+}
+
+.prep-list {
+    padding-bottom: rem;
+    padding-top: 0.5rem;
+}
+
+.prep-list li {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 10px;
+}
+
+.prep-list .span1 {
+    font-size: 0.9rem;
+}
+
+.prep-list .span2 {
+    font-size: 0.8rem;
+    font-weight: bold;
 }
